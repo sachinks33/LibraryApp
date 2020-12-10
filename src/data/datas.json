@@ -1,0 +1,45 @@
+{
+    "books":[
+        { "name":"The Discomfort of Evening",
+            "genre":"Literary Fiction",
+            "author":"Marieke Lucas Rijneveld",
+            "language":"English",
+            "photo":"https://dcbookstore.com/uploads/product/images/27373229677712-The-Discomfort-of-Evening.jpg",
+            "disc":"A bestselling sensation in the Netherlands by a prize-winning young poet, Marieke Lucas Rijneveld's debut novel lays everything bare. "
+        },
+        
+            { "name":"RANDU YATHRAKAL",
+                "genre":"Travelogue",
+                "author":"Zacharia",
+                "language":"Malayalam",
+                "photo":"https://dcbookstore.com/uploads/product/images/4079793549950-Randu-Yathrakal-Cover.jpg",
+                "disc":"Zachariah's travel experiences in Alaska and Russia"
+            },
+            
+            { "name":"PRIME WITNESS",
+                "genre":"Novel",
+                "author":"Anvar Abdulla",
+                "language":"Malayalam",
+                "photo":"https://dcbookstore.com/uploads/product/images/32891593151373-Untitled.png",
+                "disc":"Anwar Abdullah Ajith, nine friends and two drivers leave Whispering Waves for Kovalam beach at 7 pm. The coast is deserted due to the off-season. They spend hours on the beach drinking and playing on the waves."
+            }
+        ],
+        
+    "authors":[
+        { "name":" Marieke Lucas Rijneveld",
+            "photo":"https://dcbookstore.com/uploads/author/images/47085927497377-Marieke-Lucas-Rijneveld.jpg",
+            "about":"Marieke Lucas Rijneveld is a Dutch writer. Rijneveld won the 2020 the International Booker Prize together with their translator Michele Hutchison for the debut novel The Discomfort of Evening." 
+        },
+
+        {"name":"Zacharia",
+            "photo":"https://dcbookstore.com/uploads/author/images/96490477701110-56688163313275-paul-zacharia.jpg",
+            "about":"He was born in Kottayam district. He has published over forty works, including English translations of his works. He has been working in the publishing industry in Delhi for over 20 years."
+        },
+
+        {"name":"Anvar Abdulla",
+            "photo":"https://img-mm.manoramaonline.com/content/dam/mm/mo/literature/interviews/images/2020/9/23/anvar-abdulla.jpg.image.845.440.jpg",
+            "about":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard "
+        }
+        ]
+}
+
