@@ -166,6 +166,15 @@ a,a:hover {
   margin: auto;
   
 }
+#changes a
+{
+  float: left;
+  background-color: #223344;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 3px;
+}
 
 .btn-twitter {background-color:#4099FF;color:#fff;}
 .btn-facebook {background-color:#3B5998;color:#fff;}

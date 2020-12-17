@@ -89,9 +89,10 @@
           <!--/stories-->
           <div class="row justify-content-around">    
             <div class="col-lg-8 justify-content-around">
-                <form class="" method="GET" action="/">
+                <form class="" method="GET" action="/login/validation">
                     <h1 class="text-center" style="color: #545b62;">Login</h1>
-                    <input id ="user" class="form-control" type="text" name="name" placeholder="Username" required >
+                    <p><%=message%></p>
+                    <input id ="user" class="form-control" type="text" name="email" placeholder="Email Id" required >
                     <input id="pass" class="form-control" type="password" name="password" placeholder="Password" required >
                     <input id="login" class="btn" type="submit" name="submit">
                 </form>
@@ -150,7 +151,7 @@
   </div>
 </footer>
   <!-- script references -->
-  <script src="./src/views/javascript.js"></script>
+  <script src="../views/javascript.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
 	</body>

@@ -90,19 +90,25 @@
           
           
           <!--/stories-->
-          <div class="row">    
+          <div class="row">
+            <div>
+              <div id="changes"><a href="/authors/edit/<%=authorDetails._id%>">Edit</a></div>
+              <div id="changes"><a href="/authors/delete/<%=authorDetails._id%>">Remove</a></div>
+            </div>
+          </div>
+          <div class="row">
             <br>
             <div class="col-md-2 col-sm-3 text-center">
-              <a class="story-title" href="#"><img alt="" src="<%=author.photo%>" style="width:100px;height:100px" class="img-circle"></a>
+              <a class="story-title" href="#"><img alt="" src="<%=authorDetails.image%>" style="width:100px;height:100px" class="img-circle"></a>
             </div>
             <div class="col-md-10 col-sm-9">
-              <h3><%=author.name%></h3>
+              <h3><%=authorDetails.name%></h3>
               <div class="row">
                 <div class="col-xs-9">
                   </h4></div>
                 <div class="col-xs-3"></div>
               </div>
-              <div class="row"> <p><%=author.about%></p> </div>
+              <div class="row"> <p><%=authorDetails.about%></p> </div>
               <br><br>
             </div>
           </div>

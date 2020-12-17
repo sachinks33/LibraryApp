@@ -89,11 +89,11 @@
           <!--/stories-->
           <div class="row content-center">    
             <div class="col-lg-12 ">
-                <form class="" method="GET" action="addAuthor/add" >
+                <form class="" method="GET" action="/authors/edit/update/<%=authorDetails._id%>">
                     <h1 class="text-center" style="color: #545b62;"></h1>
-                    <input id ="authorName"  class="form-control" type="text" name="authorName" placeholder="Author Name" required >
-                    <input id ="about"  class="form-control" type="text" name="about" placeholder="About Author" required >
-                    <input class="form-control" name="image" type="file">
+                    <input id ="authorName"  class="form-control" type="text" value="<%=authorDetails.name%>" name="authorName" placeholder="Author Name" required >
+                    <input id ="about"  class="form-control" type="text" value="<%=authorDetails.about%>" name="about" placeholder="About Author" required >
+                    <input class="form-control" name="image" value="<%=authorDetails.image%>" type="file">
                     <input id="login" class="btn" type="submit" name="submit">
                 </form>
             </div>

@@ -90,19 +90,19 @@
           
           
           <!--/stories-->
-          <%for(i=0;i<details.books.length; i++){%>
+          <%for(i=0;i<details.length; i++){%>
           <div class="row">    
             <br>
             <div class="col-md-2 col-sm-3 text-center">
-              <a class="story-title" href="#"><img alt="" src="<%=details.books[i].photo%>" style="width:100px;height:100px" class="img-circle"></a>
+              <a class="story-title" href="#"><img alt="" src="<%=details[i].image%>" style="width:100px;height:100px" class="img-circle"></a>
             </div>
             <div class="col-md-10 col-sm-9">
-              <h3><%=details.books[i].name%></h3>
+              <h3><%=details[i].name%></h3>
               <div class="row">
                 <div class="col-xs-9">
-                  <h4>By <span class="label label-default"><%=details.books[i].author%></span></h4><h4>
-                  <small style="font-family:courier,'new courier';" class="text-muted"><%=details.books[i].genre%>
-                    <a href="/books/<%=i%>" class="text-muted">Read More</a></small>
+                  <h4>By <span class="label label-default"><%=details[i].author%></span></h4><h4>
+                  <small style="font-family:courier,'new courier';" class="text-muted"><%=details[i].genre%>
+                    <a href="/books/<%=details[i]._id%>" class="text-muted">Read More</a></small>
                   </h4></div>
                 <div class="col-xs-3"></div>
               </div>

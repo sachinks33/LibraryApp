@@ -52,7 +52,7 @@
     <div class="row">
       <div class="col-md-7">
         <h1><%=tittle%>
-          <p class="lead"></p>
+          <p class="lead">Updation</p>
         </h1>
       </div>
       <div class="col-md-5">
@@ -89,12 +89,14 @@
           <!--/stories-->
           <div class="row content-center">    
             <div class="col-lg-12 ">
-                <form class="" method="GET" action="addAuthor/add" >
+                <form class="" method="GET" action="/books/edit/update/<%=bookDetails._id%>">
                     <h1 class="text-center" style="color: #545b62;"></h1>
-                    <input id ="authorName"  class="form-control" type="text" name="authorName" placeholder="Author Name" required >
-                    <input id ="about"  class="form-control" type="text" name="about" placeholder="About Author" required >
-                    <input class="form-control" name="image" type="file">
-                    <input id="login" class="btn" type="submit" name="submit">
+                    <input id ="bookname"  class="form-control" type="text" value="<%=bookDetails.name%>" name="bookname" placeholder="Book Name" required >
+                    <input id ="genre"  class="form-control" type="text" value="<%=bookDetails.genre%>" name="genre" placeholder="Genre" required >
+                    <input id ="author"  class="form-control" type="text" value="<%=bookDetails.author%>" name="author" placeholder="Author Name" required >
+                    <input id ="description"  class="form-control" type="text" value="<%=bookDetails.description%>" name="description" placeholder="Description" required >
+                    <input class="form-control" name="image" value="<%=bookDetails.image%>" type="file" >
+                    <input id="login" class="btn" type="submit" name="Update">
                 </form>
             </div>
           </div>
